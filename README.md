@@ -30,10 +30,10 @@ We supplemented information from the global dataset, by including high-quality c
 ## Calculating the national Living Planet Index
 
 ### Comparing ecological Realms
-<img src="https://github.com/falko-buschke/SA_LPI/blob/main/LPI_Realms.png" alt="Ecological realms" width="700"/>
+<img src="https://github.com/falko-buschke/SA_LPI/blob/main/LPI_Realms.png" alt="Ecological realms" width="900"/>
 
 ### Comparing weightings
-<img src="https://github.com/falko-buschke/SA_LPI/blob/main/LPI_weightings.png" alt="Weightings" width="700"/>
+<img src="https://github.com/falko-buschke/SA_LPI/blob/main/LPI_weightings.png" alt="Weightings" width="500"/>
 
 ### Comparing the addition of improved data
-<img src="https://github.com/falko-buschke/SA_LPI/blob/main/LPI_enhancedData.png" alt="Improved data" width="700"/>
+<img src="https://github.com/falko-buschke/SA_LPI/blob/main/LPI_enhancedData.png" alt="Improved data" width="500"/>

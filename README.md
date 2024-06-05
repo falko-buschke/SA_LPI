@@ -27,7 +27,7 @@ library(rlpi)
 
 ## Guidance for use
 
-The code is self-contained to replicate the results. However, the working directory must include the same directory stucture included in this repository:
+The code is self-contained to replicate the results. However, the working directory must include the same directory stucture as included in this repository:
 
 ```
 Working directory
@@ -38,13 +38,12 @@ Working directory
 │   │   Global_infile.txt
 │   
 └───Weighted_SA
-│   │
 │   └───Infiles
-│       │   file111.txt
-│       │   file112.txt
-│       │   ...
-    │   file021.txt
-    │   file022.txt
+│       │   FW_infile.txt
+│       │   MR_infile.txt
+|       |   TR_infile.txt
+│       │   Continental_infile.txt
+|       |   Global_infile.txt
 ```
 
 

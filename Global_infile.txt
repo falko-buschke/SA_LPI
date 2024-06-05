@@ -1,0 +1,4 @@
+"FileName"	"Group"	"Weighting"	WeightingB
+"SA/FW_SA_pops.txt"	1	1	1
+"SA/MR_SA_pops.txt"	1	1	1
+"SA/TR_SA_pops.txt"	1	1	1

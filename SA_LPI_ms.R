@@ -1,12 +1,9 @@
-.libPaths(c("C:\\Users\\buschfa\\R\\R-4.1.3", .libPaths()))
-
-
 # Start by installing and loading 'devtools' package, which is needed to instal the 'rlpi' package from GitHub
-#install.packages("devtools")
-#library(devtools)
+install.packages("devtools")
+library(devtools)
 
 # Install from main ZSL repository online
-#install_github("Zoological-Society-of-London/rlpi", dependencies=TRUE)
+install_github("Zoological-Society-of-London/rlpi", dependencies=TRUE)
 # Load the 'rlpi' package
 library(rlpi)
 
@@ -31,8 +28,7 @@ end_val <- "X2020"
 
 ##########################################################################
 
-
-# Unwieghted index
+# Unweighted index
 ##########################################################################
 # Freshwater
 
@@ -374,7 +370,7 @@ dev.off()
 
 
 # Open  dataset. This needs to be downloaded from "stats.livingplanetindex.org"
-lpi.orig <- read.csv("LPD2022_public_SA_enhanced.csv", na.strings = "NULL")
+lpi.orig <- read.csv("LPD2022_public_SA_enhanced_redacted.csv", na.strings = "NULL")
 
 ##########################################################################
 

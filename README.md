@@ -6,6 +6,49 @@ This repository contains the code and data to replicated the results from the ma
 
 Its content was accurate as of 05 June 2024. For any enquiries, please contact `falko.buschk@gmail.com`.
 
+## Required libraries
+
+The code presented here  relies on the dedicated `rlpi (v0.1.0)` package for calculating the *Living Planet Index*. This code is not on the official CRAN repository, so it must be accessed and installed directly from the [rlpi GitHub repository](https://github.com/Zoological-Society-of-London/rlpi), which also requires the `devtools (v2.4.5.)` package. The code needed to install these packages is included in the R-scripts. 
+
+**Note:** This code runs without error using R version `4.1.3` but users with more recent version have reported errors with the `create_infile` function in the `rlpi` package. Please refer to [rlpi GitHub repository](https://github.com/Zoological-Society-of-London/rlpi) should you have any difficulties installin the `rlpi` package. 
+
+```
+# Start by installing and loading 'devtools' package, which is needed to install the 'rlpi' package from GitHub
+install.packages("devtools")
+library(devtools)
+
+# Install from main ZSL repository online
+install_github("Zoological-Society-of-London/rlpi", dependencies=TRUE)
+
+# Load the 'rlpi' package
+library(rlpi)
+```
+
+
+## Guidance for use
+
+The code is self-contained to replicate the results. However, the working directory must include the same directory stucture included in this repository:
+
+```
+Working directory
+└───SA
+│   │   FW_SA.txt
+│   │   MR_SA.txt
+│   │   TR_SA.txt
+│   │   Global_infile.txt
+│   
+└───Weighted_SA
+│   │
+│   └───Infiles
+│       │   file111.txt
+│       │   file112.txt
+│       │   ...
+    │   file021.txt
+    │   file022.txt
+```
+
+
+
 ## Input data
 ### General data
 Analyses were based on the 2022 public version of the [Living Planet Database](https://www.livingplanetindex.org/data_portal), which includes 32,680 population time-series from 4,923 species. We filtered this dataset to only include time-series from South Africa, resulting in a national dataset with 560 time-series from 244 species.

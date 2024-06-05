@@ -1,0 +1,4 @@
+"FileName"	"Group"	"Weighting"	WeightingB
+"Weighted_SA/TR_birds_pops.txt"	1	0.491340603	0.25
+"Weighted_SA/TR_mamm_pops.txt"	1	0.171263631	0.25
+

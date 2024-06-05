@@ -300,19 +300,7 @@ lines(c(1970:plot.end),MR_lpi$LPI_final,col=rgb(0,0,0.6,1),lwd=1)
 mtext("c",cex=1.1, side = 3, adj = -0.05, line = 0,font=2)
 text(2023, MR_lpi$LPI_final[50], paste(round(MR_lpi$LPI_final[50]*100,1)-100,"%"),font=2, cex=1 , col=rgb(0,0,0.6, 1), xpd=NA)
 
-
-
 dev.off()
-
-
-
-
-
-
-
-
-
-
 
 
 # Once you have filtered out the data and created the infile, you can calculate the National LPI
@@ -363,13 +351,19 @@ text(2022, Cont_lpi$LPI_final[50]+0.02, paste(round(Cont_lpi$LPI_final[50]*100,1
 dev.off()
 
 
-
+#############################################################################
+#############################################################################
+##                                                                         ##        
+##    The following blocks of code repeat the same analysis, but this      ##
+##    time it uses an enhanced dataset, supplemented by high-quality       ##                                                 
+##    census infomration                                                   ##
+#############################################################################
+#############################################################################
 
 
 ################################################################################
 
-
-# Open  dataset. This needs to be downloaded from "stats.livingplanetindex.org"
+# Read the enhanced  dataset. 
 lpi.orig <- read.csv("LPD2022_public_SA_enhanced_redacted.csv", na.strings = "NULL")
 
 ##########################################################################
@@ -589,10 +583,6 @@ MR_fish <- create_infile(lpi, start_col_name="X1950", end_col_name=end_val, inde
 
 # Once you have filtered out the data and created the infile, you can calculate the LPI for the Freshwater System globally
 MR_lpi <- LPIMain("Weighted_SA/Infiles/MR_infile.txt", PLOT_MAX=max_val, use_weightings_B=0, use_weightings=0, VERBOSE=FALSE)
-
-
-
-
 
 # Once you have filtered out the data and created the infile, you can calculate the National LPI
 lpi_enhanced <- LPIMain("Weighted_SA/Infiles/Global_infile.txt", PLOT_MAX=max_val, use_weightings_B=0,use_weightings=1, VERBOSE=FALSE)

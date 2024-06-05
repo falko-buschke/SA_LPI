@@ -1,0 +1,6 @@
+"FileName"	"Group"	"Weighting"	WeightingB
+"Weighted_SA/MR_birds_pops.txt"	1	0.095411887	0.2
+"Weighted_SA/MR_rep_pops.txt"	1	0.002606882	0.2
+"Weighted_SA/MR_mamm_pops.txt"	1	0.024504692	0.2
+"Weighted_SA/MR_fish_pops.txt"	1	0.877476538	0.2
+

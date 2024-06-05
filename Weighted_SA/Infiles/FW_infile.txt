@@ -1,0 +1,6 @@
+"FileName"	"Group"	"Weighting"	WeightingB
+"Weighted_SA/FW_birds_pops.txt"	1	0.531791908	0.25
+"Weighted_SA/FW_rep_pops.txt"	1	0.020231214	0.25
+"Weighted_SA/FW_amph_pops.txt"	1	0.145953757	0.25
+"Weighted_SA/FW_fish_pops.txt"	1	0.291907514	0.25
+

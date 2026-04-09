@@ -6,10 +6,12 @@ This repository contains the code and data to replicated the results from the ma
 
 Its content was accurate as of 05 June 2024. For any enquiries, please contact `falko.buschk@gmail.com`.
 
-## IMPORTANT UPDATE
+
+## :warning: IMPORTANT UPDATE :warning: 
+
 **Since developing this code repository and publishing our paper, there has been an update to the `rlpi` package**: [rlpi GitHub repository](https://github.com/Zoological-Society-of-London/rlpi).
 
-This affects the calculation for the freshwater LPI because it alters the measured population trends of on species, the little stint, *Calidris_minuta* (`Population ID12344`). So, to replicate our analysis more closely, we have removed this species from the analysis.
+This affects the calculation for the freshwater LPI because it alters the measured population trends of on species, the little stint, *Calidris minuta* (`Population ID12344`). So, to replicate our analysis more closely, we have removed this species from the analysis.
 
 ## Required libraries
 

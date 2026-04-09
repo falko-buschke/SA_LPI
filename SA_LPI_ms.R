@@ -9,7 +9,7 @@ library(rlpi)
 
 # Open  dataset. This needs to be downloaded from "stats.livingplanetindex.org"
 lpi.orig <- read.csv("LPD2022_public_SA.csv", na.strings = "NULL")
-
+lpi.orig <- lpi.orig[-405,] # Remove problematic species that introduced inconsistencies between versions of the rlpi package
 ##########################################################################
 
 # Duplicate the empirical LP dataset 
@@ -365,6 +365,7 @@ dev.off()
 
 # Read the enhanced  dataset. 
 lpi.orig <- read.csv("LPD2022_public_SA_enhanced_redacted.csv", na.strings = "NULL")
+lpi.orig <- lpi.orig[-405,] # Remove problematic species that introduced inconsistencies between versions of the rlpi package
 
 ##########################################################################
 

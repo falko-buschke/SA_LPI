@@ -2,9 +2,14 @@
 
 This repository contains the code and data to replicated the results from the manuscript:
 
-* Buschke, F.T. & von Staden, L. (In preparation). The South African Living Planet Index shows the value of a supposedly ‘uninformative’ indicator.
+* Buschke, F.T. & von Staden, L. (2025). [The South African Living Planet Index shows the value of a supposedly ‘uninformative’ indicator](https://doi.org/10.1111/acv.70014). *Animal Conservation*, 28, 854-863.
 
 Its content was accurate as of 05 June 2024. For any enquiries, please contact `falko.buschk@gmail.com`.
+
+## IMPORTANT UPDATE
+**Since developing this code repository and publishing our paper, there has been an update to the `rlpi` package**: [rlpi GitHub repository](https://github.com/Zoological-Society-of-London/rlpi).
+
+This affects the calculation for the freshwater LPI because it alters the measured population trends of on species, the little stint, *Calidris_minuta* (`Population ID12344`). So, to replicate our analysis more closely, we have removed this species from the analysis.
 
 ## Required libraries
 
